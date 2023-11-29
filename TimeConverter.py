@@ -10,7 +10,6 @@ name = st.text_input("What is your first name?") #NEW
 
 
 def function():
-    #name = st.text_input("What is your first name?")
     timeType = st.radio(f"{name}, do you want to convert your time to 12 or 24 hour time?",["24-hour time","12-hour time"])#NEW
     if timeType == "24-hour time":
         st.image(info.image24,width = 500)
